@@ -10,6 +10,35 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+        .column {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+        @media screen and (max-width: 800px) {
+          .column {
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .column {
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+        
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -29,9 +58,20 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                #<h2>my photography</h2>
-                <p><i>photography for the <a href="https://yaledailynews.com" target="_blank">Yale Daily News</a><i></p>
+               <p><i>photography for the <a href="https://yaledailynews.com" target="_blank">Yale Daily News</a><i></p>
               <p><i>personal photography<i></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="blm2.png">
+                <img src="luhorizontal2.jpg">
+                <img src="ccvertical1.jgp">
+            </div>
+            <div class="column">
+                <img src="luvertical1.jpg">
+                <img src="blm1.jpeg">
+                <img src="luhorizontal1.jpg">
             </div>
         </div>
         <!-- Bootstrap core JS-->
