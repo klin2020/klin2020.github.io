@@ -11,33 +11,51 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         
-        .row{
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 4px;
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        body {
+          margin: 0;
+          font-family: Arial;
+        }
+        .header {
+          text-align: center;
+          padding: 32px;
+        }
+        .row {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
         }
         .column {
-            flex: 25%;
-            max-width: 25%;
-            padding: 0 4px;
+          -ms-flex: 25%; /* IE10 */
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
         }
         .column img {
-            margin-top: 8px;
-            vertical-align: middle;
-            width: 100%;
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
         }
         @media screen and (max-width: 800px) {
           .column {
+            -ms-flex: 50%;
             flex: 50%;
             max-width: 50%;
           }
         }
         @media screen and (max-width: 600px) {
           .column {
+            -ms-flex: 100%;
             flex: 100%;
             max-width: 100%;
           }
         }
+        </style>
         
     </head>
     <body>
@@ -62,18 +80,20 @@
               <p><i>personal photography<i></p>
             </div>
         </div>
+                   
         <div class="row">
             <div class="column">
-                <img src="blm2.png">
-                <img src="luhorizontal2.jpg">
-                <img src="ccvertical1.jgp">
+                <img src="blm2.png" style="width:100%">
+                <img src="luhorizontal2.jpg" style="width:100%">
+                <img src="ccvertical1.jgp" style="width:100%">
             </div>
             <div class="column">
-                <img src="luvertical1.jpg">
-                <img src="blm1.jpeg">
-                <img src="luhorizontal1.jpg">
+                <img src="luvertical1.jpg" style="width:100%">
+                <img src="blm1.jpeg" style="width:100%">
+                <img src="luhorizontal1.jpg" style="width:100%">
             </div>
         </div>
+                
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
