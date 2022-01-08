@@ -10,6 +10,68 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
+        <style>
+            a:link, a:visited{
+                color: black;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #00356B;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:active {
+                color: black;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+        * {
+              box-sizing: border-box;
+            }
+            body {
+              margin: 0;
+              font-family: Helvetica;
+            }
+            .header {
+              text-align: center;
+              padding: 32px;
+            }
+            .row {
+              display: -ms-flexbox; /* IE10 */
+              display: flex;
+              -ms-flex-wrap: wrap; /* IE10 */
+              flex-wrap: wrap;
+              padding: 0 4px;
+            }
+            .column {
+              -ms-flex: 25%; /* IE10 */
+              flex: 25%;
+              max-width: 25%;
+              padding: 0 4px;
+            }
+            .column img {
+              margin-top: 8px;
+              vertical-align: middle;
+              width: 100%;
+            }
+            @media screen and (max-width: 800px) {
+              .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+              }
+            }
+            @media screen and (max-width: 600px) {
+              .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+              }
+        }
+        </style>
+        
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -30,9 +92,29 @@
         <div class="container">
             <div class="text-center mt-5">
                 <h1>Hello! Welcome to my digital studio.</h1>
-                <p class="lead">I'm a sophomore studying computer science and history of art @ [Yale University](https://www.yale.edu)</p>
+                
+                
+                <p class="lead">I'm a sophomore studying computer science and history of art @ <a href="https://www.yale.edu" target="_blank">Yale University</a></p>
+               
+                
             </div>
         </div>
+        
+        <div class="row">
+            <div class="column">
+                <img src="lampshadecover.jpg" style="width:100%">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <img src="richtercover.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="fragilecover.jpg" style="width:100%">
+            </div>
+        </div>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
