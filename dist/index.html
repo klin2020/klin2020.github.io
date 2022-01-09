@@ -10,7 +10,6 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link href= "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
         
         <style>
             a:link, a:visited{
@@ -53,6 +52,13 @@
             .column img {
               vertical-align: middle;
               width: 100%;
+              opacity: 1;
+              filter: alpha(opacity=100);
+            }
+            .column img:hover
+            {
+                opacity:0.5;
+                filter:alpha(opacity=50);
             }
             @media screen and (max-width: 800px) {
               .column {
@@ -124,7 +130,7 @@
                 <img src="pdcover.jpg" stype="width:100%">
             </div>
             <div class="column">
-                <p> class="animate__animated animate__pulse"> <img src="gdcover.jpg" stype="width:100%"></p>
+                <img src="gdcover.jpg" stype="width:100%">
             </div>
             <div class="column">
                 <p><a href="photography.html">
