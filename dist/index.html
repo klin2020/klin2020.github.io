@@ -53,13 +53,16 @@
               vertical-align: middle;
               width: 100%;
               opacity: 1;
-              filter: alpha(opacity=100);
+              /*filter: alpha(opacity=100);*/
+              will-change: opacity;
             }
+            
             .column img:hover
             {
                 opacity:0.5;
-                filter:alpha(opacity=50);
+                /*filter:alpha(opacity=50);*/
             }
+            
             @media screen and (max-width: 800px) {
               .column {
                 -ms-flex: 50%;
@@ -100,6 +103,12 @@
                 
                 <p class="lead">I'm a sophomore studying computer science and history of art @ <a href="https://www.yale.edu" target="_blank">Yale University</a></p>
                
+                
+                
+                
+                
+                
+                
                 
             </div>
         </div>
