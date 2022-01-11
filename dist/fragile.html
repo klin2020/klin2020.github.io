@@ -28,60 +28,14 @@
                 text-decoration: underline;
             }
         * {
-              /*box-sizing: border-box;*/
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
             }
-            body {
-              margin: 0;
-              font-family: Helvetica;
-            }
-            .header {
-              text-align: center;
-              padding: 32px;
-            }
-            .row {
-              display: -ms-flexbox; /* IE10 */
-              display: flex;
-              -ms-flex-wrap: wrap; /* IE10 */
-              flex-wrap: wrap;
-            }
-            .column {
-              -ms-flex: 25%; /* IE10 */
-              flex: 25%;
-              max-width: 25%;
-            }
-            .column2 {
-              -ms-flex: 25%; /* IE10 */
-              flex: 25%;
-              max-width: 25%;
-            }            
-            .column img {
-              vertical-align: middle;
-              width: 100%;
-              opacity: 1;
-              filter: alpha(opacity=100);
-              will-change: opacity;
-              padding: 0px 15px;
-            }
-            /*
-            .column img:hover
-            {
-                opacity:0.75;
-                filter:alpha(opacity=75);
-            }
-            */
-            @media screen and (max-width: 800px) {
-              .column {
-                -ms-flex: 50%;
-                flex: 50%;
-                max-width: 50%;
-              }
-            }
-            @media screen and (max-width: 600px) {
-              .column {
-                -ms-flex: 100%;
-                flex: 100%;
-                max-width: 100%;
-              }
+            .right-aligned{
+                float: right;
+                width: 50%;
             }
         }
         </style>
@@ -108,7 +62,9 @@
             <p>A synthesis project for <i>Art of the Printed Word</i>, a First Year Seminar Course at Yale University.</p>
         </div>
         
-        <img src="fragile/front.png" style="width:25%; vertical-align: middle">
+        <div class="center">
+            <img src="fragile/front.png">
+        </div>
 
         <div class="container">
           <p>In an attempt to find unexpected beauty, I interviewed five of my hometown friends on an item they continue to hold after its initial use. From a scrap of painted paper to a piece of kaleidescope glass, my friends recounted stories filled with nostalgia, hard work, and triumph over difficulty.</p>
@@ -119,11 +75,15 @@
         
         <img src="fragile/open3.png" style="width:100%">
         
-        <img src="fragile/story1.png" style="width:50%">
+        <div class="right-aligned">
+            <img src="fragile/story1.png">
+        </div>
         
         <img src="fragile/open2.png" style="width:100%">
         
-        <img src="fragile/story3.png" style="width:50%">
+        <div class="center">
+            <img src="fragile/story3.png">
+        </div>
 
         <img src="fragile/open4.png" style="width:100%">
         
