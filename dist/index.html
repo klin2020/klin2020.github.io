@@ -27,58 +27,10 @@
                 background-color: transparent;
                 text-decoration: underline;
             }
-        * {
-              /*box-sizing: border-box;*/
+            .center{
+                text-align: center;
+                padding: 0px 50px;
             }
-            body {
-              margin: 0;
-              font-family: Helvetica;
-            }
-            .header {
-              text-align: center;
-              padding: 32px;
-            }
-            .row {
-              display: -ms-flexbox; /* IE10 */
-              display: flex;
-              -ms-flex-wrap: wrap; /* IE10 */
-              flex-wrap: wrap;
-            }
-            .column {
-              -ms-flex: 25%; /* IE10 */
-              flex: 25%;
-              max-width: 25%;
-            }          
-            .column img {
-              vertical-align: middle;
-              width: 100%;
-              opacity: 1;
-              filter: alpha(opacity=100);
-              will-change: opacity;
-              padding: 0px 25px;
-            }
-            /*
-            .column img:hover
-            {
-                opacity:0.75;
-                filter:alpha(opacity=75);
-            }
-            */
-            @media screen and (max-width: 800px) {
-              .column {
-                -ms-flex: 50%;
-                flex: 50%;
-                max-width: 50%;
-              }
-            }
-            @media screen and (max-width: 600px) {
-              .column {
-                -ms-flex: 100%;
-                flex: 100%;
-                max-width: 100%;
-              }
-            }
-        }
         </style>
         
     </head>
@@ -107,42 +59,31 @@
             </div>
         </div>
         
-        <div class="row">
-            <div class="column">
-                <a href="lamp.html"><img src="lampshadecover.jpg" style="width:100%"></a>
-            </div>
+        <div class="container">
+        <div class="center">
+           <a href="lamp.html"><img src="lampshadecover.jpg" style="width:100%"></a>
         </div>
         
-        <div class="row">
-            <div class="column">
-                <a href="cdc.html"><img src="richtercover.jpg" style="width:100%"></a>
-            </div>
+        <div class="center">
+            <a href="cdc.html"><img src="richtercover.jpg" style="width:100%"></a>
         </div>
         
-        <div class="row">
-            <div class="column">
-                <a href="fragile.html"><img src="fragilecover.jpg" style="width:100%"></a>
-                
-            </div>
+        <div class="center">
+            <a href="fragile.html"><img src="fragilecover.jpg" style="width:100%"></a>
         </div>
         
-        <div class="row">
-            <div class="column">
-                <a href="studio.html"><img src="artcover.jpg" style="width:100%"></a>
-            </div>
+        <div class="center">
+            <a href="studio.html"><img src="artcover.jpg" style="width:100%"></a>
         </div>
         
-        <div class="row">
-            <div class="column">
-                <a href="design.html"><img src="designcover.jpg" style="width:100%"></a>
-            </div>
+        <div class="center">
+            <a href="design.html"><img src="designcover.jpg" style="width:100%"></a>
         </div>
         
-        <div class="row">
-            <div class="column">
-                <a href="photography.html"><img src="photographycover.jpg" style="width:100%"></a>
-            </div>
-        </div>        
+        <div class="center">
+            <a href="photography.html"><img src="photographycover.jpg" style="width:100%"></a>
+        </div> 
+        </div>
         
         
         <!-- Bootstrap core JS-->
