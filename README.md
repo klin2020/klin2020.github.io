@@ -1,3 +1,5 @@
+<meta HTTP-Equiv="Refresh" content="0; URL=https://klin2020.github.io/dist/index.html">
+
 # [Start Bootstrap - Bare](https://startbootstrap.com/template/bare/)
 
 [Bare](https://startbootstrap.com/template/bare/) is a bare HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This template serves as a basic project boilerplate perfect for creating modern, responsive websites and applications.
