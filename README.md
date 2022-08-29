@@ -1,8 +1,7 @@
 
 
 
-<meta HTTP-Equiv="Refresh" content="0; URL=https://klin2020.github.io/dist/index.html">
-
+<meta HTTP-Equiv="Refresh" content="0; URL=[https://klin2020.github.io/dist/index.html](https://klin2020.github.io/dist/index.html)">
 
 # [Start Bootstrap - Bare](https://startbootstrap.com/template/bare/)
 
